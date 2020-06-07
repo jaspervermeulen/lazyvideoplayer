@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hands</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p class="instructions">To activate an option, please move you hand over the area gently.</p>
+    <p class="mutestatus">Video is muted</p>
+    <p class="active">You pressed: ______</p>
+    <video id="vidsmall" class="vidsmall" width="500" height="400">
+      <source
+        src="./COFFIN DANCE MEME _ Funeral Dance Meme _ Astronomia Meme Compilation 2020.mp4"
+        type="video/mp4"
+      />
+      >
+    </video>
+    <video class="vidspecial" id="video"></video>
+
+    <div class="play">
+      <img src="./play.svg" alt="Play" />
+    </div>
+    <div class="pause">
+      <img src="./pause.svg" alt="Play" />
+    </div>
+    <div class="toggle">
+      <p>
+        Toggle <br />
+        mute
+      </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
